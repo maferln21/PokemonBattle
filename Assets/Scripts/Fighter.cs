@@ -3,7 +3,8 @@ using UnityEngine;
 public class Fighter : MonoBehaviour
 {
   [SerializeField]
-  private Animator Animator;
+  private Animator animator;
+  public Animator Animator => animator;
   [SerializeField]
   private Health health;
   public Health Health => health;
