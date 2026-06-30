@@ -17,13 +17,20 @@ MonoBehaviour:
   attacks:
   - name: Ligth Punch
     animationName: Attack1
+    attackSoundName: ataque_1B
     minDamage: 50
     maxDamage: 80
     chargeParticles: {fileID: 433791478015106829, guid: ac13ac4d34799d3479ca2d16f0687697, type: 3}
     attackParticles: {fileID: 6391971480062061542, guid: 07caa33a6dc63ba45b15606184f88687, type: 3}
   - name: FireAttack
     animationName: Attack2
+    attackSoundName: Ataque_2B
     minDamage: 50
     maxDamage: 80
     chargeParticles: {fileID: 4392313174495821963, guid: f9a60234a3d952a4fa75f3d2b05d858b, type: 3}
     attackParticles: {fileID: 8530604511787353809, guid: 86d4a3f1aba9bf84c942c5c3088b5ae6, type: 3}
+  chargeTime: 2
+  appearParticles: {fileID: 8530604511787353809, guid: 86d4a3f1aba9bf84c942c5c3088b5ae6, type: 3}
+  appearSoundName: ApareceB
+  damamegSoundName: "Da\xF1oB"
+  deadSoundName: MuereM
