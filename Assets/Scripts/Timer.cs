@@ -18,7 +18,7 @@ public class Timer : MonoBehaviour
     {
         while ( duration > 0)
         {
-            SoundManager.intance.Play(timerData[duration - 1].soundName);
+            SoundManager.instance.Play(timerData[duration - 1].soundName);
             timerImage.sprite = timerData[duration - 1].texture;
             yield return new WaitForSeconds(1f);
             duration--;
@@ -34,5 +34,5 @@ public class Timer : MonoBehaviour
 public class TimerData
 {
     public string soundName;
-    public Sprite Texture;
+    public Sprite texture;
 }
