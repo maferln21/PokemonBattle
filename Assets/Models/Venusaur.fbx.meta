@@ -133,7 +133,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Charge
+      name: Charge2
       takeName: bd_charge
       internalID: -5941109824986188948
       firstFrame: 0
@@ -742,7 +742,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: bd_round
+      name: Charge
       takeName: bd_round
       internalID: 4101377793530868074
       firstFrame: 0

@@ -11,7 +11,7 @@ public class WinScreen : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
-    public void ShoeWinScreen(string winner)
+    public void ShowWinScreen(string winner)
     {
         WinText.text = winner + " Wins!";
         animator.Play("Show", 0, 0f);
