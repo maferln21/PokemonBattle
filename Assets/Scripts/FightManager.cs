@@ -31,6 +31,8 @@ public class FightManager : MonoBehaviour
             SoundManager.instance.Play(fighter.FighterData.appearSoundName);
             fighters.Add(fighter);
             DialogSystem.Instance.ShowDialog(fighter.FighterData.fighterName + "has joined the fight!");
+            fighter.Health.InitializeHelath();
+            fighter.Animator.Play("Idle" , 0, 0f);
             if (fighters.Count >= minimumFighters)
             {
                 onFightReady?.Invoke();

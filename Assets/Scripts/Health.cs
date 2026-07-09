@@ -17,6 +17,7 @@ public class Health : MonoBehaviour
     public void InitializeHelath()
     {
         currenyHealth = maxHelath;
+        UpdateBar();
     }  
     private void UpdateBar()
     {
