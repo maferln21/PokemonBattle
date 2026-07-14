@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MoloettaData
   m_EditorClassIdentifier: Assembly-CSharp::FighterData
   maxHealth: 200
-  fighterName: meloetta
+  fighterName: Flygon
   attacks:
   - name: Magic Ponch
     animationName: Attack1
